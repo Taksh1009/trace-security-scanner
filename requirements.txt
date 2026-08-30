@@ -1,0 +1,8 @@
+# TRACE's core engine has zero third-party runtime dependencies —
+# it uses only the Python standard library (see STDLIB.md).
+#
+# The line below is a development-only dependency, needed to run
+# the automated test suite in tests/. It is not required to run
+# trace.py itself.
+
+pytest>=7.0
